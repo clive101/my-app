@@ -7,7 +7,7 @@ function Section({title ,description, leftBtnText, rightBtnText, backgroundImg }
         <Wrap backgroundImage={backgroundImg}>
             <ItemText>
             <h1>{ title }</h1>
-            <p>{ description }</p>
+            {/* <p>{ description }</p> */}
                 </ItemText>
                 <Buttons>
 <ButtonGroup>
@@ -22,7 +22,7 @@ function Section({title ,description, leftBtnText, rightBtnText, backgroundImg }
         }
     </ButtonGroup>
 
-    <DownArrow src="/images/down-arrow.svg" />
+    {/* <DownArrow src="/images/down-arrow.svg" /> */}
 </Buttons>
         </Wrap>
     )

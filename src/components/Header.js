@@ -9,9 +9,11 @@ function Header() {
     const cars = useSelector(selectCars)
     return (
         <Container>
-            {/* <a>
+            {/* {
+                <a>
                 <img src="/images/Clive.PNG" alt="" />
-                </a> */}
+                </a> 
+                } */}
 
                 <Menu>
                     {cars && cars.map((car, index)=> (
