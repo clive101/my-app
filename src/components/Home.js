@@ -15,7 +15,7 @@ function Home() {
 
 <Section 
             title="Houses"
-            backgroundImg="model-s.jpg"
+            backgroundImg="landscape.jpg"
             leftBtnText="Viewing"
             rightBtnText="Pricing"
             />
